@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{
+  --ut-blue-dark:#003399;
+  --ut-blue:#0055cc;
+  --accent:#ffd200;
+  --bg-gradient: linear-gradient(135deg, var(--ut-blue-dark), var(--ut-blue));
+  --card-radius:12px;
+}
+
+*{font-family:'Poppins',sans-serif;}
+
+body{
+  margin:0;
+  background: var(--bg-gradient);
+  min-height:100vh;
+  color:#222;
+}
+
+.header{
+  background: white;
+  padding:10px 20px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.header img{height:56px;}
+
+.container-card{
+  max-width:420px;
+  margin:6vh auto;
+}
+
+.login-card{
+  background: #fff;
+  border-radius: var(--card-radius);
+  padding:28px;
+  box-shadow: 0 10px 30px rgba(255, 252, 252, 0.15);
+}
+
+.login-title{
+  color:var(--ut-blue-dark);
+  font-weight:700;
+  font-size:22px;
+  margin-bottom:8px;
+}
+
+.input-icon{
+  display:flex;
+  gap:8px;
+  align-items:center;
+}
+
+.btn-ut{
+  background:var(--ut-blue);
+  color:#fff;
+  border:none;
+}
+
+.btn-ut-outline{
+  background:transparent;
+  color:var(--ut-blue);
+  border:2px solid var(--ut-blue);
+}
+
+.greeting{
+  margin:20px;
+  font-size:18px;
+  color:#ffffff;
+}
+
+.page-content{
+  padding:18px;
+}
+
+.navbar-ut{
+  background:var(--ut-blue-dark);
+  color:#fff;
+}
+
+.table-img{
+  max-width:64px;
+  height:48px;
+  object-fit:cover;
+  border-radius:6px;
+  border:1px solid #ddd;
+}
+
+.footer{
+  text-align:center;
+  padding:12px;
+  color:#fff;
+}
